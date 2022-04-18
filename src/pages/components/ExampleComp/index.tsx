@@ -1,4 +1,5 @@
 import React from 'react'
+import * as S from "../styles"
 
 type propsType = {
 
@@ -7,9 +8,7 @@ type propsType = {
 
 const index = ({}: propsType) => {
   return (
-    <div>
-
-    </div>
+    <S.ExampleComp/>
   )
 }
 
